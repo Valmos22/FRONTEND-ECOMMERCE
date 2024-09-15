@@ -1,4 +1,6 @@
-const API_URL = 'http://localhost:3000/api';
+import { endpoinUrlProd, endpoinUrlLocal } from "../utils/environment";
+
+const API_URL = endpoinUrlLocal || endpoinUrlProd;
 
 export async function fetchAPI(endpoint: string, options: RequestInit = {}) {
     const response = await fetch(`${API_URL}${endpoint}`, options);
