@@ -15,14 +15,18 @@
   <li>npm</li>
   <li>Iniciar aplicacion BACKEND-ECOMMERCE</li>
 </ul>
-<h2>Instalación</h2>
+<h2>Instalación local</h2>
 <ol>
   <li>Clona el repositorio</li>
   <li>Navega a la carpeta FRONTEND-ECOMMERCE e instala las dependencias con npm install</li>
   <li>Inicia la micro aplicacion BACKEND-ECOMMERCE: npm run dev</li>
   <li>Inicia la micro aplicación de Svelte: npm run dev</li>
-  <li>La aplicación estará disponible en http://localhost:5173 </li>
+  <li>La aplicación estará disponible en http://localhost:5173</li>
 </ol>
+<h2>Desplegado en Render</h2>
+<ul>
+  <li>La micro aplicacion esta corriendo en: <a href="https://frontend-ecommerce-67pt.onrender.com" target="_blank">https://frontend-ecommerce-67pt.onrender.com</a></li>
+</ul>
 <h2>Uso</h2>
 <ul>
   <li>Accede a la aplicación web a través de http://localhost:5173</li>
