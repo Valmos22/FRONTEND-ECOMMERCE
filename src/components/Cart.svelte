@@ -2,7 +2,6 @@
   import { onMount } from "svelte";
   import { cart } from "../stores/cartStore";
   import { createOrder } from "$lib/api";
-  import { get } from "svelte/store";
 
   let items: string | any[] = [];
   let total = 0;
@@ -56,18 +55,20 @@
                 <div
                   class="space-y-4 md:flex md:items-center md:justify-between md:gap-6 md:space-y-0"
                 >
-                  <a href="#" class="shrink-0 md:order-1">
+                  <div class="shrink-0 md:order-1">
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
                     <img
                       class="h-20 w-20 dark:hidden"
                       src={item.image}
                       alt="imac image"
                     />
+                    <!-- svelte-ignore a11y-img-redundant-alt -->
                     <img
                       class="hidden h-20 w-20 dark:block"
                       src={item.image}
                       alt="imac image"
                     />
-                  </a>
+                  </div>
 
                   <label for="counter-input" class="sr-only"
                     >Choose quantity:</label

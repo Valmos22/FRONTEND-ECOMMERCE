@@ -43,10 +43,10 @@
           </h2>
           <ul class="text-gray-500 dark:text-gray-400 font-medium">
             <li class="mb-4">
-              <a href="#" class="hover:underline">Privacy Policy</a>
+              <div class="hover:underline">Privacy Policy</div>
             </li>
             <li>
-              <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+              <div class="hover:underline">Terms &amp; Conditions</div>
             </li>
           </ul>
         </div>
@@ -78,8 +78,7 @@
           </svg>
           <span class="sr-only">Facebook</span>
         </a>
-        <a
-          href="#"
+        <div
           class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
         >
           <svg
@@ -94,9 +93,8 @@
             />
           </svg>
           <span class="sr-only">Discord community</span>
-        </a>
-        <a
-          href="#"
+        </div>
+        <div
           class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
         >
           <svg
@@ -113,9 +111,8 @@
             />
           </svg>
           <span class="sr-only">Twitter page</span>
-        </a>
-        <a
-          href="#"
+        </div>
+        <div
           class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
         >
           <svg
@@ -132,9 +129,8 @@
             />
           </svg>
           <span class="sr-only">GitHub account</span>
-        </a>
-        <a
-          href="#"
+        </div>
+        <div
           class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
         >
           <svg
@@ -151,7 +147,7 @@
             />
           </svg>
           <span class="sr-only">Dribbble account</span>
-        </a>
+        </div>
       </div>
     </div>
   </div>

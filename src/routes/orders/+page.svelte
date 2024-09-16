@@ -3,7 +3,6 @@
   import { getOrders } from "$lib/api";
   import type { Order } from "../../utils/Order";
 
-  export let data: { order: Order };
   let orders: Order[] = [];
   let err: string;
 
@@ -49,10 +48,9 @@
             <td class="px-6 py-4"> {order.total} </td>
             <td class="px-6 py-4"> {order.status} </td>
             <td class="px-6 py-4">
-              <a
-                href="#"
+              <button
                 class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-                >Edit</a
+                >Edit</button
               >
             </td>
           </tr>

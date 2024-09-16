@@ -3,7 +3,6 @@
   import { getProducts } from "$lib/api";
   import type { Product } from "../utils/Produsct";
 
-  export let params: { id: string };
   let products: Product[] = [];
   let err: string;
 
