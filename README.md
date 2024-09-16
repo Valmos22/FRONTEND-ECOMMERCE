@@ -21,7 +21,7 @@
   <li>Navega a la carpeta FRONTEND-ECOMMERCE e instala las dependencias con npm install</li>
   <li>Inicia la micro aplicacion BACKEND-ECOMMERCE: npm run dev</li>
   <li>Inicia la micro aplicación de Svelte: npm run dev</li>
-  <li>La aplicación estará disponible en http://localhost:5173</li>
+  <li>La aplicación estará disponible en http://localhost:5174</li>
 </ol>
 <h2>Desplegado en Render</h2>
 <ul>
