@@ -20,6 +20,7 @@
   <li>Clona el repositorio</li>
   <li>Navega a la carpeta FRONTEND-ECOMMERCE e instala las dependencias con npm install</li>
   <li>Inicia la micro aplicacion BACKEND-ECOMMERCE: npm run dev</li>
+  <li>Navega a la carpeta src/lib y cambia const API_URL = endpoinUrlProd; -> const API_URL = endpoinUrlLocal;</li>
   <li>Inicia la micro aplicación de Svelte: npm run dev</li>
   <li>La aplicación estará disponible en http://localhost:5174</li>
 </ol>
